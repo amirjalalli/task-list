@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Task List</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Task List</h2>
+    </header>
+    <div class="container">
+      <div class="add-task-content">
+        <input type="text" class="input"/>
+        <div class="btn-content">
+          <button class="update-add btn">Add Task</button>
+        </div>
+        <div class="btn-content" style="display: none;">
+          <button class="update-btn btn">Eddit Task</button>
+          <button class="cancel-add btn">Cancel</button>
+        </div>
+      </div>
+      <div class="body create-task" >
+        <div class="task-card" data-createdat="2023/12/12, 8:46:41 PM">
+          <div class="checkbox">
+            <input type="checkbox" class="task-check completed"/>
+            <p>create one website</p>
+          </div>
+          <div>
+            <button class="btn-edite btn btn-ed">Edite</button>
+            <button class="btn-delete btn btn-del">Delet</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./js.js"></script>
+  </body>
 </html>

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(36, 70, 70);
+}
+.header {
+    text-align: center;
+    background-color: rgb(1, 1, 10);
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 16px;
+}
+.container {
+    padding: 0 16px;
+}
+.add-task-content {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: white;
+}  
+.add-task-content input {
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    border-bottom: 1px solid black;
+}
+.btn-content  {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.update-add  {
+    background-color: green;
+    outline: none;
+    
+}
+.update-btn  {
+    background-color: purple;
+}
+.cancel-add {
+    background-color: gray;
+}
+.btn {
+    padding: 4px 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    height: 32px;
+    border-radius: 10px;
+}   
+
+.body { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.task-card {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+.task-card div {
+    display: flex;
+    gap: 8px;
+}
+.btn-edite {
+    background-color: gray; 
+
+}
+.btn-delete {
+    background-color: red;
+}
+.completed {
+    text-decoration: line-through;
+}
